@@ -1,0 +1,44 @@
+# ============================================
+# GitHub Profile Metrics Workflow
+# Generates weekly profile metrics image
+# ============================================
+
+name: metrics
+
+on:
+  schedule:
+    - cron: "0 9 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  generate-metrics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate metrics
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: ArthurCavalcanti098
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: America/Sao_Paulo
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          plugin_stargazers: yes
+          plugin_stargazers_limit: 16
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_colors: github
+          plugin_followup: yes
+          plugin_repositories: yes
+          plugin_repositories_limit: 4
+          output_action: none
+          filename: metrics.svg

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D1117"/>
+      <stop offset="100%" style="stop-color:#161B22"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="1280" height="720" fill="url(#bg)" rx="12"/>
+  <!-- Window chrome -->
+  <rect width="1280" height="48" fill="#161B22" rx="12"/>
+  <rect y="36" width="1280" height="12" fill="#161B22"/>
+  <circle cx="24" cy="24" r="6" fill="#DA3633"/>
+  <circle cx="44" cy="24" r="6" fill="#D29922"/>
+  <circle cx="64" cy="24" r="6" fill="#238636"/>
+  <!-- Sidebar -->
+  <rect x="0" y="48" width="240" height="672" fill="#0D1117"/>
+  <rect x="0" y="48" width="240" height="44" fill="#21262D"/>
+  <text x="24" y="76" font-family="Inter, sans-serif" font-size="14" fill="#238636" font-weight="600">VetClinic</text>
+  <!-- Sidebar items -->
+  <rect x="16" y="112" width="208" height="36" rx="8" fill="#21262D"/>
+  <text x="48" y="136" font-family="Inter, sans-serif" font-size="13" fill="#E6EDF3">Dashboard</text>
+  <rect x="16" y="156" width="208" height="36" rx="8" fill="transparent"/>
+  <text x="48" y="180" font-family="Inter, sans-serif" font-size="13" fill="#8B949E">Appointments</text>
+  <rect x="16" y="200" width="208" height="36" rx="8" fill="transparent"/>
+  <text x="48" y="224" font-family="Inter, sans-serif" font-size="13" fill="#8B949E">Patients</text>
+  <rect x="16" y="244" width="208" height="36" rx="8" fill="transparent"/>
+  <text x="48" y="268" font-family="Inter, sans-serif" font-size="13" fill="#8B949E">Services</text>
+  <rect x="16" y="288" width="208" height="36" rx="8" fill="transparent"/>
+  <text x="48" y="312" font-family="Inter, sans-serif" font-size="13" fill="#8B949E">Settings</text>
+  <!-- Main content header -->
+  <text x="272" y="80" font-family="Inter, sans-serif" font-size="20" fill="#E6EDF3" font-weight="600">Dashboard</text>
+  <text x="272" y="102" font-family="Inter, sans-serif" font-size="13" fill="#8B949E">Monday, May 18, 2026</text>
+  <!-- Stats cards -->
+  <rect x="272" y="120" width="200" height="88" rx="8" fill="#161B22" stroke="#21262D" stroke-width="1"/>
+  <text x="296" y="148" font-family="Inter, sans-serif" font-size="11" fill="#8B949E">Today's Appointments</text>
+  <text x="296" y="180" font-family="Inter, sans-serif" font-size="28" fill="#E6EDF3" font-weight="700">8</text>
+  <rect x="488" y="120" width="200" height="88" rx="8" fill="#161B22" stroke="#21262D" stroke-width="1"/>
+  <text x="512" y="148" font-family="Inter, sans-serif" font-size="11" fill="#8B949E">Active Patients</text>
+  <text x="512" y="180" font-family="Inter, sans-serif" font-size="28" fill="#238636" font-weight="700">142</text>
+  <rect x="704" y="120" width="200" height="88" rx="8" fill="#161B22" stroke="#21262D" stroke-width="1"/>
+  <text x="728" y="148" font-family="Inter, sans-serif" font-size="11" fill="#8B949E">This Week</text>
+  <text x="728" y="180" font-family="Inter, sans-serif" font-size="28" fill="#388BFD" font-weight="700">34</text>
+  <rect x="920" y="120" width="200" height="88" rx="8" fill="#161B22" stroke="#21262D" stroke-width="1"/>
+  <text x="944" y="148" font-family="Inter, sans-serif" font-size="11" fill="#8B949E">Revenue</text>
+  <text x="944" y="180" font-family="Inter, sans-serif" font-size="28" fill="#D29922" font-weight="700">$4.2k</text>
+  <!-- Calendar area -->
+  <rect x="272" y="224" width="520" height="448" rx="8" fill="#161B22" stroke="#21262D" stroke-width="1"/>
+  <text x="296" y="256" font-family="Inter, sans-serif" font-size="14" fill="#E6EDF3" font-weight="600">May 2026</text>
+  <!-- Calendar grid -->
+  <g font-family="Inter, sans-serif" font-size="11" fill="#8B949E" text-anchor="middle">
+    <text x="336" y="288">Mon</text><text x="416" y="288">Tue</text><text x="496" y="288">Wed</text><text x="576" y="288">Thu</text><text x="656" y="288">Fri</text><text x="736" y="288">Sat</text>
+    <text x="336" y="320" fill="#E6EDF3">12</text><text x="416" y="320" fill="#E6EDF3">13</text><text x="496" y="320" fill="#E6EDF3">14</text><text x="576" y="320" fill="#E6EDF3">15</text><text x="656" y="320" fill="#E6EDF3">16</text><text x="736" y="320" fill="#E6EDF3">17</text>
+  </g>
+  <!-- Today highlighted -->
+  <rect x="296" y="304" width="28" height="24" rx="4" fill="#388BFD"/>
+  <text x="336" y="320" font-family="Inter, sans-serif" font-size="11" fill="#fff" text-anchor="middle" font-weight="600">18</text>
+  <text x="336" y="352" font-family="Inter, sans-serif" font-size="10" fill="#8B949E" text-anchor="middle">19</text><text x="416" y="352" font-family="Inter, sans-serif" font-size="10" fill="#8B949E" text-anchor="middle">20</text><text x="496" y="352" font-family="Inter, sans-serif" font-size="10" fill="#8B949E" text-anchor="middle">21</text><text x="576" y="352" font-family="Inter, sans-serif" font-size="10" fill="#8B949E" text-anchor="middle">22</text><text x="656" y="352" font-family="Inter, sans-serif" font-size="10" fill="#8B949E" text-anchor="middle">23</text><text x="736" y="352" font-family="Inter, sans-serif" font-size="10" fill="#8B949E" text-anchor="middle">24</text>
+  <!-- Appointments on calendar -->
+  <rect x="300" y="368" width="456" height="28" rx="4" fill="#238636" opacity="0.2"/>
+  <text x="312" y="386" font-family="Inter, sans-serif" font-size="11" fill="#238636">10:00 — Luna (Vaccination)</text>
+  <rect x="300" y="404" width="456" height="28" rx="4" fill="#388BFD" opacity="0.2"/>
+  <text x="312" y="422" font-family="Inter, sans-serif" font-size="11" fill="#388BFD">11:30 — Rex (Checkup)</text>
+  <rect x="300" y="440" width="456" height="28" rx="4" fill="#D29922" opacity="0.2"/>
+  <text x="312" y="458" font-family="Inter, sans-serif" font-size="11" fill="#D29922">14:00 — Bella (Surgery)</text>
+  <rect x="300" y="476" width="456" height="28" rx="4" fill="#238636" opacity="0.2"/>
+  <text x="312" y="494" font-family="Inter, sans-serif" font-size="11" fill="#238636">15:30 — Max (Dental Cleaning)</text>
+  <!-- Today's appointments panel -->
+  <rect x="808" y="224" width="328" height="448" rx="8" fill="#161B22" stroke="#21262D" stroke-width="1"/>
+  <text x="832" y="256" font-family="Inter, sans-serif" font-size="14" fill="#E6EDF3" font-weight="600">Today's Appointments</text>
+  <!-- Appointment cards -->
+  <rect x="824" y="276" width="296" height="72" rx="8" fill="#0D1117" stroke="#21262D" stroke-width="1"/>
+  <circle cx="848" cy="312" r="16" fill="#238636" opacity="0.2"/>
+  <text x="844" y="318" font-family="Inter, sans-serif" font-size="14" fill="#238636">🐕</text>
+  <text x="876" y="300" font-family="Inter, sans-serif" font-size="13" fill="#E6EDF3" font-weight="500">Luna</text>
+  <text x="876" y="318" font-family="Inter, sans-serif" font-size="11" fill="#8B949E">Owner: Maria Silva</text>
+  <text x="876" y="336" font-family="Inter, sans-serif" font-size="11" fill="#238636">10:00 — Vaccination</text>
+  <rect x="824" y="360" width="296" height="72" rx="8" fill="#0D1117" stroke="#21262D" stroke-width="1"/>
+  <circle cx="848" cy="396" r="16" fill="#388BFD" opacity="0.2"/>
+  <text x="844" y="402" font-family="Inter, sans-serif" font-size="14" fill="#388BFD">🐕</text>
+  <text x="876" y="384" font-family="Inter, sans-serif" font-size="13" fill="#E6EDF3" font-weight="500">Rex</text>
+  <text x="876" y="402" font-family="Inter, sans-serif" font-size="11" fill="#8B949E">Owner: João Santos</text>
+  <text x="876" y="420" font-family="Inter, sans-serif" font-size="11" fill="#388BFD">11:30 — Checkup</text>
+  <rect x="824" y="444" width="296" height="72" rx="8" fill="#0D1117" stroke="#21262D" stroke-width="1"/>
+  <circle cx="848" cy="480" r="16" fill="#D29922" opacity="0.2"/>
+  <text x="844" y="486" font-family="Inter, sans-serif" font-size="14" fill="#D29922">🐈</text>
+  <text x="876" y="468" font-family="Inter, sans-serif" font-size="13" fill="#E6EDF3" font-weight="500">Bella</text>
+  <text x="876" y="486" font-family="Inter, sans-serif" font-size="11" fill="#8B949E">Owner: Ana Costa</text>
+  <text x="876" y="504" font-family="Inter, sans-serif" font-size="11" fill="#D29922">14:00 — Surgery</text>
+  <rect x="824" y="528" width="296" height="72" rx="8" fill="#0D1117" stroke="#21262D" stroke-width="1"/>
+  <circle cx="848" cy="564" r="16" fill="#238636" opacity="0.2"/>
+  <text x="844" y="570" font-family="Inter, sans-serif" font-size="14" fill="#238636">🐕</text>
+  <text x="876" y="552" font-family="Inter, sans-serif" font-size="13" fill="#E6EDF3" font-weight="500">Max</text>
+  <text x="876" y="570" font-family="Inter, sans-serif" font-size="11" fill="#8B949E">Owner: Pedro Lima</text>
+  <text x="876" y="588" font-family="Inter, sans-serif" font-size="11" fill="#238636">15:30 — Dental Cleaning</text>
+</svg>
