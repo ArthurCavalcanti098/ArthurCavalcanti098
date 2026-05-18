@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0D1117&amp;height=220&amp;section=header&amp;text=Arthur%20Cavalcanti&amp;fontSize=42&amp;fontColor=E6EDF3&amp;fontAlignY=35&amp;desc=Software%20Engineering%20Student%20%7C%20Backend%20%26%20Full%20Stack%20Developer&amp;descSize=15&amp;descAlignY=55&amp;animation=fadeIn" width="100%" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3500&pause=1200&color=E6EDF3&center=true&vCenter=true&multiline=true&repeat=true&width=640&height=100&lines=Building+modern+backend+applications+with+Java+%26+Spring+Boot;Developing+full+stack+solutions+with+TypeScript+%26+React;Learning+software+architecture+%26+cloud+infrastructure)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3500&pause=1200&color=E6EDF3&center=true&vCenter=true&multiline=true&repeat=true&width=820&height=120&lines=Building+modern+backend+applications+with+Java+%26+Spring+Boot;Developing+full+stack+solutions+with+TypeScript+%26+React;Learning+software+architecture+%26+cloud+infrastructure)](https://git.io/typing-svg)
 
 <img src="https://komarev.com/ghpvc/?username=ArthurCavalcanti098&amp;color=388BFD&amp;style=flat-square&amp;label=PROFILE+VIEWS" alt="Profile views" />
 
