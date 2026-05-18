@@ -147,6 +147,6 @@ I'm building toward a career where I can design and ship systems that are well-a
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0D1117&height=100&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=wave&color=0D1117&height=100&section=footer" width="100%" />
 
 </div>
