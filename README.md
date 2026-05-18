@@ -107,9 +107,9 @@ const arthur = {
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=ArthurCavalcanti098&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=388BFD&icon_color=58A6FF&text_color=C9D1D9&ring_color=388BFD&include_all_commits=true&count_private=true" width="48%" alt="GitHub Stats" />
+<img src="https://github-readme-stats-alpha.vercel.app/api?username=ArthurCavalcanti098&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=388BFD&icon_color=58A6FF&text_color=C9D1D9&ring_color=388BFD&include_all_commits=true&count_private=true" width="48%" alt="GitHub Stats" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArthurCavalcanti098&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=388BFD&text_color=C9D1D9&langs_count=7&card_width=280" width="38%" alt="Most Used Languages" />
+<img src="https://github-readme-stats-alpha.vercel.app/api/top-langs/?username=ArthurCavalcanti098&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=388BFD&text_color=C9D1D9&langs_count=7&card_width=280" width="38%" alt="Most Used Languages" />
 
 <br />
 
